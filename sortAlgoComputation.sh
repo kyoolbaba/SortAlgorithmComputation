@@ -1,4 +1,5 @@
 #! /bin/bash
-echo Enter the three
-read a b c 
-sum=$((a+b+c))
+echo Enter the three numbers separated by a space
+read A B C 
+computation1=$((A+B+C))
+computation2=$((A*B+C))
